@@ -71,8 +71,6 @@ function image {
   // needed to loop through them to pull them out
   //
 
-
-
   selection = math.random(math.floor (images))
 
   return selection;

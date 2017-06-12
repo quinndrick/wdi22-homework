@@ -1,0 +1,11 @@
+You said the movie title was <%= @movies[0]["title"] %>
+
+<% @movies.each do |m| %>
+  <%= m["title"]%>
+  <p><a href="/movie_details/<%= m["id"] %>" class="details_link">
+  <img src="http://image.tmdb.org/t/p/w500<%= m[ "backdrop_path"] %>">
+</a>
+</p>
+
+
+<% end %>

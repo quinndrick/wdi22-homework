@@ -18,7 +18,7 @@ var clickVideo = video;
 
 clickCat.addEventListener('click', function(){
   console.log("cat clicked");
-})
+});
 
 clickStart.addEventListener('click', function (){
   lolCat.style.left = '0px';
@@ -42,7 +42,7 @@ clickStart.addEventListener('click', function (){
     window.setInterval (catWalk, 50);
   // };
 
-});
+});``
 
 clickEnd.addEventListener('click', function (){
   console.log("end clicked");
